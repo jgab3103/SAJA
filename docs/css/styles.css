@@ -95,6 +95,13 @@
   }
 }
 
+
+
+.album-cover-left {
+    max-width: 220px;
+}
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
