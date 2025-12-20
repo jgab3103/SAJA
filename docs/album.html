@@ -81,6 +81,25 @@
         .music-links a.youtube:hover { color: #ff0000; }
         .music-links a.apple:hover { color: #a2aaad; }
         .music-links a.amazon:hover { color: #ff9900; }
+
+        /* TIDAL icon (inline SVG) */
+        .music-links a.tidal {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .music-links a.tidal svg {
+            width: 2rem;
+            height: 2rem;
+            fill: currentColor;
+            transition: transform 0.3s;
+        }
+        .music-links a.tidal:hover {
+            color: #00ffff;
+        }
+        .music-links a.tidal:hover svg {
+            transform: scale(1.2);
+        }
     </style>
 </head>
 <body id="page-top">
@@ -106,7 +125,7 @@
 <!-- Album Section -->
 <section class="about-section">
     <div class="container px-4 px-lg-5 text-center">
-<br/><br/>
+        <br/><br/>
         <p class="album-text text-center">New album — due early 2026</p>
         <br/>
 
@@ -122,26 +141,35 @@
                 <ol class="text-white-70">
                     <li>Kiss Me Out From The Cold</li>
                     <li>La Valse</li>
-                     <li>Dont Let Met Go</li>
+                    <li>Dont Let Met Go</li>
                     <li>Apart In the Winter Sun</li>
                     <li>Feel Your Touch</li>
-
                     <li>Softly</li>
                     <li>Little Motion</li>
                 </ol>
             </div>
         </div>
 
-<br/><br/>
+        <br/><br/>
         <!-- Music Links Row -->
         <div class="music-links">
             <a href="https://open.spotify.com/track/6ogomoLEFn4oLfmmYc7Q6h?si=e0a05ba4993c45f2" target="_blank" class="spotify" title="Spotify"><i class="fab fa-spotify"></i></a>
             <a href="https://sajaproject.bandcamp.com/track/kiss-me-out-from-the-cold" target="_blank" class="bandcamp" title="Bandcamp"><i class="fab fa-bandcamp"></i></a>
-            <a href="https://youtu.be/HE9vmHjt8uI?si=BOFFvhPpkw5gBVnM target="_blank" class="youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://youtu.be/HE9vmHjt8uI?si=BOFFvhPpkw5gBVnM" target="_blank" class="youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
             <a href="https://music.apple.com/au/album/kiss-me-out-from-the-cold/1860548408?i=1860548409" target="_blank" class="apple" title="Apple Music"><i class="fab fa-apple"></i></a>
+
+            <a href="https://tidal.com/album/480905369/track/480905370" target="_blank" class="tidal" title="TIDAL">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <polygon points="3,7 7,3 11,7 7,11"/>
+                    <polygon points="13,7 17,3 21,7 17,11"/>
+                    <polygon points="8,12 12,8 16,12 12,16"/>
+                    <polygon points="3,17 7,13 11,17 7,21"/>
+                    <polygon points="13,17 17,13 21,17 17,21"/>
+                </svg>
+            </a>
+
             <a href="https://music.amazon.com/tracks/B0G6DBB9ZZ?marketplaceId=A15PK738MTQHSO&musicTerritory=AU&ref=dm_sh_kdwcsvyWiK35TlfyzPqtf8rIX" target="_blank" class="amazon" title="Amazon Music"><i class="fab fa-amazon"></i></a>
         </div>
-
     </div>
 </section>
 
@@ -152,7 +180,7 @@
             <div class="col-lg-8 text-white-50">
                 <p>
                     Words and Music: Jamie Gabriel & Sally Jamila<br>
-                    Mixing and Mastering: Jason Holecliffe 
+                    Mixing and Mastering: Jason Holecliffe
                 </p>
             </div>
         </div>
