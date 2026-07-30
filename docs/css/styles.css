@@ -11230,13 +11230,12 @@ body {
 }
 
 
+.album-row {
+    position: relative;
+}
+
 .album-row-link {
-    text-decoration: none;
-    color: inherit;
-    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: 10;
 }
-
-.album-row-link:hover {
-    text-decoration: none;
-}
-
