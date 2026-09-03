@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,177 +8,353 @@
         <meta name="author" content="" />
         <title>SAJA</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
+
+        <!-- Font Awesome icons -->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
+
+        <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+
+        <!-- Core theme CSS -->
         <link href="css/styles.css" rel="stylesheet" />
+
+        <style>
+
+            /* -----------------------------------
+               New Single feature
+            ----------------------------------- */
+
+            .single-feature {
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+                margin-bottom: 4rem;
+                background: #000;
+            }
+
+            .single-feature img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+            .single-feature-overlay {
+                position: absolute;
+                inset: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                background: rgba(0, 0, 0, 0.20);
+            }
+
+            .single-feature-title {
+                color: #fff;
+                font-family: 'Varela Round', sans-serif;
+                font-size: 2.5rem;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+            }
+
+            .single-feature-title a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            .single-feature-title a:hover {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            @media (max-width: 767.98px) {
+
+                .single-feature-title {
+                    font-size: 1.5rem;
+                    letter-spacing: 0.05em;
+                }
+
+                .single-feature {
+                    margin-bottom: 3rem;
+                }
+
+            }
+
+        </style>
+
     </head>
+
     <body id="page-top">
-        <!-- Navigation-->
-<nav class="simple-nav">
-    <div class="nav-container">
 
-        <a href="index.html">
-            <img
-                src="assets/img/Saja_submark_blk on orange_circle_3000x3000px.png"
-                alt="SAJA Project"
-                class="nav-logo"
-            >
-        </a>
+        <!-- Navigation -->
+        <nav class="simple-nav">
+            <div class="nav-container">
 
-        <div class="nav-links">
-            <!-- <a href="#about">About</a> -->
-            <a href="./album.html">New Album</a>
-            <a href="https://sajaproject.bandcamp.com/contact?b=742412910&n=SAJA%20Project&email=sally%40abovethemandrake.co.nz">Contact</a>
-        </div>
+                <a href="index.html">
+                    <img
+                        src="assets/img/Saja_submark_blk on orange_circle_3000x3000px.png"
+                        alt="SAJA Project"
+                        class="nav-logo"
+                    >
+                </a>
 
-    </div>
-</nav>
-        <!-- Masthead-->
+                <div class="nav-links">
+                    <a href="./album.html">New Album</a>
+                    <a href="./about.html">About</a>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <!-- Masthead -->
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
-<div class="text-center">
-    <img
-      src="assets/img/Saja_logo_long_orange.png"
-      alt="SAJA Project"
-      class="mx-auto my-0 d-block"
-      style="max-width: 800px; width: 100%; height: auto;"
-    >
 
-    <div class="mt-4">
-        <p class="text-black-50 hero-links">
-           
-            <br><br><br>
-            Our new album, out now. <br/> 
-            <a href="album.html">SAJA Project [01]</a>
-        </p>
-               <p class="text-black-50 hero-links">
-                           <a href="https://sallyjamila.com/">Sally Jamila</a> and <a href="https://jamiegabriel.org/">Jamie Gabriel</a> <br/>  </p>
-    </div>
-</div>
+                    <div class="text-center">
+
+                        <img
+                            src="assets/img/Saja_logo_long_orange.png"
+                            alt="SAJA Project"
+                            class="mx-auto my-0 d-block"
+                            style="max-width: 800px; width: 100%; height: auto;"
+                        >
+
+                        <div class="mt-4"> 
+
+                            <!--
+                            <p class="text-black-50 hero-links">
+                                <br><br><br>
+                                Our new single, out now. <br/>
+                                <a href="sunday-girl.html">Sunday Girl</a>
+                            </p>
+                            -->
+
+                            <!--
+                            <p class="text-black-50 hero-links">
+                                <a href="https://sallyjamila.com/">Sally Jamila</a>
+                                and
+                                <a href="https://jamiegabriel.org/">Jamie Gabriel</a>
+                                <br/>
+                            </p>
+                            -->
+
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </header>
-        <!-- About-->
 
-        <!-- Projects-->
+
+        <!-- Projects -->
         <section class="projects-section bg-light" id="projects">
+
             <div class="container px-4 px-lg-5">
 
-           
 
+                <!-- NEW SINGLE — FULL WIDTH FEATURE -->
+                <div class="single-feature">
 
+                    <a href="./sunday-girl.html">
 
+                        <img
+                            src="assets/img/LeelaArt1.jpg"
+                            alt="SAJA Project — Sunday Girl"
+                        />
 
+                        <div class="single-feature-overlay">
 
-
-
-
-               
-
-                <!-- <h3>Projects</h3><br/> -->
-                <!-- Project One Row-->
-<div class="row gx-0 mb-3 justify-content-center">
-
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/Toitoi_0903.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Live Peformance</h4>
-                                    <p class="mb-0 text-white-50">We tend to smoosh all kinds of things together when playing live. Some jazz, some funk, some soundscape and ambient noise. Sometimes we like to pull it right back to the basics, just acoustic gutiar and voice. But other times it is messing with loops and samples, synths and computers.  </p>
-                                </div>
+                            <div class="single-feature-title">
+                                New Single Out Now<br/>
+                                Sunday Girl
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Two Row-->
-<div class="row gx-0 mb-3 justify-content-center">
 
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/SJDunes3.jpeg" alt="..." /></div>
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <!-- NEW ALBUM — FIRST ROW -->
+                <div class="row gx-0 mb-4 justify-content-center">
+
+                    <!-- Album artwork -->
+                    <div
+                        class="col-lg-6 d-flex align-items-center justify-content-center"
+                        style="background: #000; padding: 30px 0;"
+                    >
+
+                        <a
+                            href="./album.html"
+                            style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;"
+                        >
+
+                            <img
+                                src="assets/img/AlbumCover.jpg"
+                                alt="SAJA Project [01]"
+                                style="
+                                    width: 55%;
+                                    max-width: 400px;
+                                    height: auto;
+                                    display: block;
+                                "
+                            >
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- Album text -->
+                    <div class="col-lg-6">
+
+                        <div class="bg-black text-center h-100 project">
+
+                            <div class="d-flex h-100">
+
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+
+                                    <h4 class="text-white hero-links-white">
+                                        <a href="album.html">Our New Album</a>
+                                    </h4>
+
+                                    <p class="mb-0 text-white-50">
+                                        The recording we have wanted to make since we first met at music school.
+                                        <br/><br/>
+                                        Out now.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJECT ONE — LIVE PERFORMANCE -->
+                <div class="row gx-0 mb-4 justify-content-center">
+
+                    <div class="col-lg-6">
+
+                        <img
+                            class="img-fluid"
+                            src="assets/img/Toitoi_0903.jpg"
+                            alt="SAJA Project live performance"
+                        />
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="bg-black text-center h-100 project">
+
+                            <div class="d-flex h-100">
+
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+
+                                    <h4 class="text-white">
+                                        Live Performance
+                                    </h4>
+
+                                    <p class="mb-0 text-white-50">
+                                        We tend to smoosh all kinds of things together when playing live.
+                                        Some jazz, some funk, some soundscape and ambient noise.
+                                        Sometimes we like to pull it right back to the basics,
+                                        just acoustic guitar and voice. But other times it is messing
+                                        with loops and samples, synths and computers.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJECT TWO — SPUN TREASURES -->
+                <div class="row gx-0 mb-4 justify-content-center">
+
+                    <div class="col-lg-6">
+
+                        <img
+                            class="img-fluid"
+                            src="assets/img/SJDunes3.jpeg"
+                            alt="SAJA Project Spun Treasures"
+                        />
+
+                    </div>
+
                     <div class="col-lg-6 order-lg-first">
+
                         <div class="bg-black text-center h-100 project">
+
                             <div class="d-flex h-100">
+
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Spun Treasures</h4>
-                                    <p class="mb-0 text-white-50">We first played this set at Auckland Folk Festival, influenced by Sally's genetic and cultural lineage, which spans, Cook Island-Tahitian, Croatian and Indian heritage. </p>
+
+                                    <h4 class="text-white">
+                                        Spun Treasures
+                                    </h4>
+
+                                    <p class="mb-0 text-white-50">
+                                        We first played this set at Auckland Folk Festival,
+                                        influenced by Sally's genetic and cultural lineage,
+                                        which spans Cook Island-Tahitian, Croatian and Indian heritage.
+                                    </p>
+
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
+
                 </div>
-
-
-
-
-
-<div class="row gx-0 mb-5 mb-lg-0 justify-content-center album-row">
-<a href="./album.html" class="album-row-link" aria-label="SAJA Project [01]"></a>
-    <div class="col-lg-6 d-flex align-items-center justify-content-center"
-     style="background: #000;">
-    
-  <img
-    src="assets/img/AlbumCover.jpg"
-    alt="Upcoming Album"
-    style="
-      max-width: 55%;
-      height: auto;
-/*      border: 1px solid rgba(255,255,255,0.25);*/
-      padding: 1rem;
-      background: transparent;
-    "
-  /></a>
-</div>
-
-
-     
-
-
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white hero-links-white"><a href="album.html">Our New Album</a></h4>
-                                    <p class="mb-0 text-white-50">The recording we have wanted to make since we first met at music school. <br/><br/>Out now.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
 
 
             </div>
+
         </section>
-        <!-- Signup-->
-<!--         <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        
-                      
-                      
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; SAJA 2026</div>
-            <div>Photography by Sabine Mignault</div></footer>
-        <!-- Bootstrap core JS-->
+
+        <!-- Footer -->
+        <footer class="footer bg-black small text-center text-white-50">
+
+            <div class="container px-4 px-lg-5">
+
+                Copyright &copy; SAJA 2026
+
+            </div>
+
+            <div>
+                Photography by Sabine Mignault
+            </div>
+
+        </footer>
+
+
+        <!-- Bootstrap core JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+
+        <!-- Core theme JS -->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
     </body>
 </html>
