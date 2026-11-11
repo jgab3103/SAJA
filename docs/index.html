@@ -1,370 +1,894 @@
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>SAJA</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
-        <!-- Font Awesome icons -->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+<head>
 
-        <!-- Google fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Core theme CSS -->
-        <link href="css/styles.css" rel="stylesheet" />
+<meta name="description"
+      content="SAJA Project — music across jazz, electronica and improvisation.">
 
-        <style>
+<title>SAJA Project</title>
 
-            /* -----------------------------------
-               New Single feature
-            ----------------------------------- */
+<link rel="icon" href="assets/favicon.ico">
 
-            .single-feature {
-                position: relative;
-                width: 100%;
-                overflow: hidden;
-                margin-bottom: 4rem;
-                background: #000;
-            }
+<link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Varela+Round&display=swap"
+    rel="stylesheet">
 
-            .single-feature img {
-                width: 100%;
-                height: auto;
-                display: block;
-            }
+<style>
 
-            .single-feature-overlay {
-                position: absolute;
-                inset: 0;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                background: rgba(0, 0, 0, 0.20);
-            }
+/* =========================================
+   GLOBAL
+========================================= */
 
-            .single-feature-title {
-                color: #fff;
-                font-family: 'Varela Round', sans-serif;
-                font-size: 2.5rem;
-                font-weight: 400;
-                text-transform: uppercase;
-                letter-spacing: 0.08em;
-                text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
-            }
-
-            .single-feature-title a {
-                color: #fff;
-                text-decoration: none;
-            }
-
-            .single-feature-title a:hover {
-                color: #fff;
-                text-decoration: none;
-            }
-
-            @media (max-width: 767.98px) {
-
-                .single-feature-title {
-                    font-size: 1.5rem;
-                    letter-spacing: 0.05em;
-                }
-
-                .single-feature {
-                    margin-bottom: 3rem;
-                }
-
-            }
-
-.saja-tagline {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 0.7rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.18em;
-    text-align: center;
-    color: #000;
-    margin: 0 0 1.25rem 0;
-    width: 100%;
+:root {
+    --ink: #151515;
+    --paper: #f4f1eb;
+    --orange: #e99a47;
+    --muted: #746f69;
 }
 
-        </style>
-
-    </head>
-
-    <body id="page-top">
-
-        <!-- Navigation -->
-        <nav class="simple-nav">
-            <div class="nav-container">
-
-                <a href="index.html">
-                    <img
-                        src="assets/img/Saja_submark_blk on orange_circle_3000x3000px.png"
-                        alt="SAJA Project"
-                        class="nav-logo"
-                    >
-                </a>
-
-                <div class="nav-links">
-                    <a href="./album.html">New Album</a>
-                    <a href="./about.html">About</a>
-                </div>
-
-            </div>
-        </nav>
-
-
-        <!-- Masthead -->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-
-                    <div class="text-center">
-
-                        <img
-                            src="assets/img/Saja_logo_long_orange.png"
-                            alt="SAJA Project"
-                            class="mx-auto my-0 d-block"
-                            style="max-width: 800px; width: 100%; height: auto;"
-                        >
-
-                        <div class="mt-4 text-center"> 
-
-
- <div class="saja-tagline"><br/>
-        
-    </div>
-                            
-                            <p class="text-black-50 hero-links">
-                                
-                                SAJA project is the collaborative creative powerhouse between Jamie Gabriel (Aus) and Sally Jamila (NZ). <br/>Their contrasting and highly diverse backgrounds span modern classical to electronica, Indian to jazz-fusion, <br/>to constantly create music which surprises with twists, turns and innovations.
-
-
-
-                            </p>
-                            
-                      
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </header>
-
-
-        <!-- Projects -->
-        <section class="projects-section bg-light" id="projects">
-
-            <div class="container px-4 px-lg-5">
-
-
-                <!-- NEW SINGLE — FULL WIDTH FEATURE -->
-                <div class="single-feature">
-
-                    <a href="./sunday-girl.html">
-
-                        <img
-                            src="assets/img/LeelaArt1.jpg"
-                            alt="SAJA Project — Sunday Girl"
-                        />
-
-                        <div class="single-feature-overlay">
-
-                            <div class="single-feature-title">
-                                New Single Out Now<br/>
-                                Sunday Girl
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                </div>
-
-
-                <!-- NEW ALBUM — FIRST ROW -->
-                <div class="row gx-0 mb-4 justify-content-center">
-
-                    <!-- Album artwork -->
-                    <div
-                        class="col-lg-6 d-flex align-items-center justify-content-center"
-                        style="background: #000; padding: 30px 0;"
-                    >
-
-                        <a
-                            href="./album.html"
-                            style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;"
-                        >
-
-                            <img
-                                src="assets/img/AlbumCover.jpg"
-                                alt="SAJA Project [01]"
-                                style="
-                                    width: 55%;
-                                    max-width: 400px;
-                                    height: auto;
-                                    display: block;
-                                "
-                            >
-
-                        </a>
-
-                    </div>
-
-
-                    <!-- Album text -->
-                    <div class="col-lg-6">
-
-                        <div class="bg-black text-center h-100 project">
-
-                            <div class="d-flex h-100">
-
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-
-                                    <h4 class="text-white hero-links-white">
-                                        <a href="album.html">Our New Album</a>
-                                    </h4>
-
-                                    <p class="mb-0 text-white-50">
-                                        The recording we have wanted to make since we first met at music school.
-                                        <br/><br/>
-                                        Out now.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- PROJECT ONE — LIVE PERFORMANCE -->
-                <div class="row gx-0 mb-4 justify-content-center">
-
-                    <div class="col-lg-6">
-
-                        <img
-                            class="img-fluid"
-                            src="assets/img/Toitoi_0903.jpg"
-                            alt="SAJA Project live performance"
-                        />
-
-                    </div>
-
-                    <div class="col-lg-6">
-
-                        <div class="bg-black text-center h-100 project">
-
-                            <div class="d-flex h-100">
-
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-
-                                    <h4 class="text-white">
-                                        Live Performance
-                                    </h4>
-
-                                    <p class="mb-0 text-white-50">
-                                        We tend to smoosh all kinds of things together when playing live.
-                                        Some jazz, some funk, some soundscape and ambient noise.
-                                        Sometimes we like to pull it right back to the basics,
-                                        just acoustic guitar and voice. But other times it is messing
-                                        with loops and samples, synths and computers.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- PROJECT TWO — SPUN TREASURES -->
-                <div class="row gx-0 mb-4 justify-content-center">
-
-                    <div class="col-lg-6">
-
-                        <img
-                            class="img-fluid"
-                            src="assets/img/SJDunes3.jpeg"
-                            alt="SAJA Project Spun Treasures"
-                        />
-
-                    </div>
-
-                    <div class="col-lg-6 order-lg-first">
-
-                        <div class="bg-black text-center h-100 project">
-
-                            <div class="d-flex h-100">
-
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-
-                                    <h4 class="text-white">
-                                        Spun Treasures
-                                    </h4>
-
-                                    <p class="mb-0 text-white-50">
-                                        We first played this set at Auckland Folk Festival,
-                                        influenced by Sally's genetic and cultural lineage,
-                                        which spans Cook Island-Tahitian, Croatian and Indian heritage.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font: inherit;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--orange);
+    outline-offset: 3px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding: 14px max(24px, calc((100vw - 1160px) / 2));
+
+    background: #26161A;
+    color: #f4f1eb;
+
+    border-bottom: 1px solid #3b342a;
+}
+
+.site-header img {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+}
+
+.site-nav {
+    display: flex;
+    gap: 26px;
+
+    font-size: .78rem;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+.site-nav a {
+    transition: color .2s ease;
+}
+
+.site-nav a:hover {
+    color: var(--orange);
+}
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+main {
+    max-width: 1160px;
+    margin: auto;
+    padding: 0 24px;
+}
+
+/* =========================================
+   MASTHEAD BACKGROUND
+========================================= */
+
+.hero-background {
+    position: relative;
+    isolation: isolate;
+    background: #0A0908;
+    margin: 0 calc(50% - 50vw);
+    padding: 0 max(24px, calc((100vw - 1160px) / 2));
+}
+
+/* Photograph fades to the exact background/footer colour. */
+.hero-background::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: max(900px, 68vw);
+    z-index: -1;
+    pointer-events: none;
+    background-image:
+        linear-gradient(to bottom,
+            rgba(10,9,8,0) 0%,
+            rgba(10,9,8,0.03) 30%,
+            rgba(10,9,8,0.18) 48%,
+            rgba(10,9,8,0.60) 65%,
+            rgba(10,9,8,0.92) 78%,
+            #0A0908 92%,
+            #0A0908 100%
+        ),
+        url("assets/img/bg-masthead.jpg");
+    background-position: center, center -120px;
+    background-size: 100% 100%, 100% auto;
+    background-repeat: no-repeat;
+}
+
+/* =========================================
+   INTRODUCTION
+========================================= */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 22px;
+    min-height: clamp(520px, 70vh, 680px);
+    padding: 45px 0 55px;
+}
+
+.intro img {
+    width: min(650px, 100%);
+    max-width: 650px;
+    height: auto;
+    object-fit: contain;
+}
+
+.intro p {
+    font-size: clamp(1rem, 1.65vw, 1.22rem);
+    line-height: 1.6;
+    max-width: 660px;
+    margin: 0 auto;
+    color: #171717;
+}
+
+/* =========================================
+   FEATURED RELEASES
+========================================= */
+
+.release-section {
+    background: transparent;
+    padding: 320px 0 75px;
+}
+
+.release-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+
+/* =========================================
+   RELEASE PLAYER PANELS
+========================================= */
+
+.release-player {
+    min-width: 0;
+    padding: 22px;
+
+    background: rgba(10, 9, 8, 0.88);
+
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+
+    color: #f4f1eb;
+}
+
+.release-label {
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    font-weight: 800;
+
+    color: var(--orange);
+
+    margin: 0 0 10px;
+}
+
+.release-player h2 {
+    font-family: 'Varela Round', sans-serif;
+
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.35;
+
+    margin: 0 0 16px;
+}
+
+/* =========================================
+   SPOTIFY / SUBVERT LINKS
+========================================= */
+
+.player-tabs {
+    display: flex;
+    gap: 24px;
+
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+
+    margin-bottom: 16px;
+}
+
+.player-tab {
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+
+    border: none;
+    border-bottom: 2px solid transparent;
+
+    color: #aaa;
+
+    padding: 9px 0 11px;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: .85rem;
+    font-weight: 800;
+
+    cursor: pointer;
+
+    transition: color .2s ease;
+}
+
+.player-tab.active {
+    color: var(--orange);
+    border-bottom-color: var(--orange);
+}
+
+.player-tab:hover {
+    color: #fff;
+}
+
+/* =========================================
+   PLAYER CONTENT
+========================================= */
+
+.player-pane {
+    display: none;
+}
+
+.player-pane.active {
+    display: block;
+}
+
+.player-pane iframe {
+    display: block;
+
+    width: 100%;
+    height: 352px;
+
+    border: 0;
+    border-radius: 12px;
+}
+
+/* =========================================
+   RELEASE LINKS
+========================================= */
+
+.release-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+
+    margin-top: 18px;
+}
+
+.release-links a {
+    color: var(--orange);
+
+    font-size: .8rem;
+    font-weight: 800;
+
+    text-decoration: none;
+
+    transition: color .2s ease;
+}
+
+.release-links a:hover {
+    color: #fff;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    background: #0A0908;
+    color: #f4f1eb;
+
+    text-align: center;
+
+    padding: 26px;
+
+    font-size: .75rem;
+
+    margin-top: 0;
+}
+
+/* =========================================
+   TABLET AND MOBILE
+========================================= */
+
+@media (max-width: 760px) {
+
+    .site-header {
+        padding: 12px 20px;
+    }
+
+    .site-nav {
+        gap: 15px;
+        font-size: .7rem;
+    }
+
+    main {
+        padding: 0 18px;
+    }
+
+    .hero-background { padding: 0 18px; }
+    .hero-background::before {
+        height: max(700px, 115vw);
+        background-position: center, center -35px;
+    }
+
+    .intro {
+        gap: 18px;
+        min-height: clamp(440px, 65svh, 620px);
+        padding: 40px 0 45px;
+    }
+
+    .intro img {
+        width: min(360px, 88%);
+        max-width: 360px;
+    }
+
+    .intro p {
+        font-size: 1rem;
+        line-height: 1.55;
+        max-width: 540px;
+    }
+
+    .release-section {
+        padding: 75px 0 50px;
+    }
+
+    .release-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .release-player {
+        padding: 16px;
+    }
+
+    .release-player h2 {
+        font-size: 1.25rem;
+    }
+
+    .release-links {
+        gap: 16px;
+    }
+
+}
+
+/* =========================================
+   SMALL MOBILE SCREENS
+========================================= */
+
+@media (max-width: 390px) {
+
+    .site-header img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .site-nav {
+        gap: 12px;
+        font-size: .65rem;
+    }
+
+    .release-player {
+        padding: 12px;
+    }
+
+    .player-pane iframe {
+        height: 300px;
+    }
+
+    .bandcamp-link {
+        min-height: 300px;
+    }
+
+    .release-links {
+        gap: 12px;
+    }
+
+}
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    .site-nav a,
+    .release-links a,
+    .player-tab {
+        transition: none;
+    }
+
+}
+
+
+/* =========================================
+   LIVE VIDEO — BELOW FEATURED RELEASES
+========================================= */
+
+.home-live {
+    padding: 0 0 85px;
+    color: #f4f1eb;
+}
+.home-live-heading {
+    border-top: 1px solid rgba(255,255,255,.18);
+    padding-top: 24px;
+    margin: 0 0 28px;
+}
+.home-live-heading h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-weight: 400;
+    margin: 0;
+}
+.home-live-heading h2 span { color: var(--orange); }
+.home-live-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+}
+.home-live-card {
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 8px;
+    background: rgba(10,9,8,.88);
+}
+.home-live-frame {
+    aspect-ratio: 16 / 9;
+    background: #171717;
+}
+.home-live-frame iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.home-live-info { padding: 20px 22px 22px; }
+.home-live-info h3 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0 0 12px;
+}
+.home-live-info a {
+    font-size: .82rem;
+    font-weight: 800;
+    color: var(--orange);
+}
+.home-live-info a:hover { color: #fff; }
+@media (max-width: 760px) {
+    .home-live { padding-bottom: 55px; }
+    .home-live-grid { grid-template-columns: 1fr; gap: 20px; }
+    .home-live-info { padding: 16px; }
+}
+
+
+/* =========================================
+   MOBILE MASTHEAD & CONTENT REFINEMENTS
+   Desktop styling above is unchanged.
+========================================= */
+@media (max-width: 760px) {
+    /* Give the photo its own portrait-friendly canvas, while
+       keeping the fade independent of the page's content height. */
+    .hero-background::before {
+        height: 790px;
+        background-size: 100% 100%, auto 790px;
+        background-position: center, center top;
+        background-repeat: no-repeat;
+    }
+
+    .intro {
+        min-height: 480px;
+        padding: 36px 0 32px;
+        gap: 14px;
+    }
+    .intro img {
+        width: min(360px, 88%);
+        max-width: 360px;
+    }
+    .intro p {
+        max-width: 38ch;
+        font-size: .95rem;
+        line-height: 1.5;
+    }
+    .release-section {
+        padding: 120px 0 48px;
+    }
+    .release-grid, .home-live-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .release-player, .home-live-card {
+        min-width: 0;
+    }
+    .home-live { padding-bottom: 50px; }
+}
+
+@media (max-width: 420px) {
+    .hero-background::before {
+        height: 740px;
+        background-size: 100% 100%, auto 740px;
+    }
+    .intro {
+        min-height: 455px;
+        padding-top: 26px;
+        padding-bottom: 25px;
+    }
+    .intro img { width: min(310px, 88%); }
+    .intro p { font-size: .9rem; line-height: 1.48; }
+    .release-section { padding-top: 105px; }
+    .player-tabs { gap: 18px; }
+    .home-live-heading { margin-bottom: 20px; }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- =========================================
+     NAVIGATION
+========================================= -->
+
+<header class="site-header">
+
+    <a href="index.html" aria-label="SAJA Project home">
+
+        <img
+            src="assets/img/Saja_submark_blk on orange_circle_3000x3000px.png"
+            alt="SAJA Project symbol">
+
+    </a>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <!-- <a href="live.html">Live</a> -->
+      <a href="presskit.html">Press Kit</a>
+      <a href="https://saja-music.com/">Saja Music</a>
+
+      <a href="contact.html" aria-current="page">Contact</a>
+  </nav>
+
+</header>
+
+<!-- =========================================
+     MAIN CONTENT
+========================================= -->
+
+<main>
+
+    <div class="hero-background">
+
+        <!-- =================================
+             INTRODUCTION
+        ================================= -->
+
+        <section class="intro" aria-label="Introduction">
+
+            <img
+                src="assets/img/Saja_logo_long_orange.png"
+                alt="SAJA Project">
+
+            <div><br/><br/>
+
+                <p>
+                    SAJA project is the collaborative creative
+                    powerhouse between Jamie Gabriel (Aus) and
+                    Sally Jamila (NZ). Their contrasting and highly
+                    diverse musical backgrounds, spanning classical
+                    to electronica and Indian to jazz-fusion,
+                    enrich their music making, composition and teaching projects.
+                </p>
 
             </div>
 
         </section>
 
+        <!-- =================================
+             FEATURED RELEASES
+        ================================= -->
 
-        <!-- Footer -->
-        <footer class="footer bg-black small text-center text-white-50">
+        <section
+            class="release-section"
+            aria-label="Featured releases">
 
-            <div class="container px-4 px-lg-5">
+            <div class="release-grid">
 
-                Copyright &copy; SAJA 2026
+                <!-- =========================
+                     SUNDAY GIRL
+                ========================= -->
+
+                <article class="release-player">
+
+                    <p class="release-label">
+                        New single · Out now
+                    </p>
+
+                    <h2>Sunday Girl</h2>
+
+                    <!-- PLATFORM TABS -->
+
+                    <div
+                        class="player-tabs"
+                        role="group"
+                        aria-label="Sunday Girl listening platform">
+
+                        <button
+                            type="button"
+                            class="player-tab active"
+                            data-platform="spotify"
+                            aria-pressed="true">
+                            Spotify
+                        </button>
+
+                        <a class="player-tab" href="https://www.subvert.fm/saja-project-1/01" target="_blank" rel="noopener noreferrer">Subvert ↗</a>
+
+                    </div>
+
+                    <!-- SPOTIFY SINGLE -->
+
+                    <div
+                        class="player-pane active"
+                        data-pane="spotify">
+
+                        <iframe
+                            title="Sunday Girl on Spotify"
+                            src="https://open.spotify.com/embed/track/1Hku7ux9QRDGdwWyJwBqVn?utm_source=generator"
+                            width="100%"
+                            height="352"
+                            loading="lazy"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                        </iframe>
+
+                    </div>
+
+                    <!-- RELEASE PAGE -->
+
+                    <div class="release-links">
+
+                        <a href="sunday-girl.html">
+                            Details ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- =========================
+                     SAJA PROJECT 01
+                ========================= -->
+
+                <article class="release-player">
+
+                    <p class="release-label">
+                        Debut album · Out now
+                    </p>
+
+                    <h2>SAJA Project [01]</h2>
+
+                    <!-- PLATFORM TABS -->
+
+                    <div
+                        class="player-tabs"
+                        role="group"
+                        aria-label="Album listening platform">
+
+                        <button
+                            type="button"
+                            class="player-tab active"
+                            data-platform="spotify"
+                            aria-pressed="true">
+                            Spotify
+                        </button>
+
+                        <a class="player-tab" href="https://www.subvert.fm/saja-project-1/01" target="_blank" rel="noopener noreferrer">Subvert ↗</a>
+
+                    </div>
+
+                    <!-- SPOTIFY ALBUM -->
+
+                    <div
+                        class="player-pane active"
+                        data-pane="spotify">
+
+                        <iframe
+                            title="SAJA Project 01 on Spotify"
+                            src="https://open.spotify.com/embed/album/1uM5lSf7tSYpBMCJ3xJLT3?utm_source=generator"
+                            width="100%"
+                            height="352"
+                            loading="lazy"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                        </iframe>
+
+                    </div>
+
+                    <!-- RELEASE PAGE -->
+
+                    <div class="release-links">
+
+                        <a href="album.html">
+                           Details ↗
+                        </a>
+
+                    </div>
+
+                </article>
 
             </div>
 
-            <div>
-                Photography by Sabine Mignault
+        </section>
+
+        <!-- =================================
+             LIVE PERFORMANCE
+        ================================= -->
+        <section class="home-live" aria-label="Live performance clips">
+            <div class="home-live-heading">
+                <h2>Live<span>.</span></h2>
             </div>
+            <div class="home-live-grid">
 
-        </footer>
+                              <article class="home-live-card">
+    <div class="home-live-frame">
+        <iframe
+            title="La Valse — SAJA Project"
+            src="https://www.youtube-nocookie.com/embed/5t4U1ZDO6yY"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="home-live-info">
+        <h3>La Valse</h3>
+        <a href="https://www.youtube.com/watch?v=5t4U1ZDO6yY"
+           target="_blank" rel="noopener noreferrer">
+            View original clip ↗
+        </a>
+    </div>
+</article>
 
+<article class="home-live-card">
+    <div class="home-live-frame">
+        <iframe
+            title="Apart In The Winter Sun — SAJA Project"
+            src="https://www.youtube-nocookie.com/embed/4lXl_fj_9gU"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="home-live-info">
+        <h3>Apart In The Winter Sun</h3>
+        <a href="https://www.youtube.com/watch?v=4lXl_fj_9gU"
+           target="_blank" rel="noopener noreferrer">
+            View original clip ↗
+        </a>
+    </div>
+</article>
 
-        <!-- Bootstrap core JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<article class="home-live-card">
+    <div class="home-live-frame">
+        <iframe
+            title="Tenderly — SAJA Project"
+            src="https://www.youtube-nocookie.com/embed/ayM-fsZ5g04"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="home-live-info">
+        <h3>Tenderly</h3>
+        <a href="https://www.youtube.com/watch?v=ayM-fsZ5g04"
+           target="_blank" rel="noopener noreferrer">
+            View original clip ↗
+        </a>
+    </div>
+</article>
 
-        <!-- Core theme JS -->
-        <script src="js/scripts.js"></script>
+<article class="home-live-card">
+    <div class="home-live-frame">
+        <iframe
+            title="SAJA Project — Live Performance"
+            src="https://www.youtube-nocookie.com/embed/lVv7t-XdBss"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="home-live-info">
+        <h3>
+Tui Tuia at the Cascades</h3>
+        <a href="https://www.youtube.com/watch?v=lVv7t-XdBss"
+           target="_blank" rel="noopener noreferrer">
+            View original clip ↗
+        </a>
+    </div>
+</article>
 
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+            </div>
+        </section>
 
-    </body>
+    </div>
+    <!-- END MASTHEAD -->
+
+</main>
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer>
+
+    © SAJA 2026 &nbsp;·&nbsp;
+    Photography by Sabine Mignault
+
+</footer>
+
+</body>
+
 </html>
